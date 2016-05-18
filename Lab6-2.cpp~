@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+double inches;
+double feet;
+double centimeters;
+int choice;
+
+int main()
+{
+foot:
+cout << "Enter feet: ";
+cin >> feet;
+
+inch:
+cout<<"Enter inches:";
+cin>>inches;
+
+inches= inches*2.54;
+feet= feet * 30.48;
+centimeters= feet+inches;
+
+cout << feet<<inches << " foot and inches equals "
+<< centimeters << " centimeters." << endl;
+return 0;
+
+}
